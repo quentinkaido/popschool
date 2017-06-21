@@ -1,0 +1,150 @@
+html{
+
+  background-color: rgb(17, 23, 26);
+  text-align: center;
+}
+
+
+/*nom prenom*/
+
+
+/*Titre*/
+body {
+
+
+  width: auto;
+  margin: auto;
+  /*vert*/
+  background-color: rgb(17, 70, 26);
+  font-size: 14px;
+
+}
+
+header{
+  font-size: 14px;
+}
+
+}
+
+head{
+  width: 50px;
+}
+
+
+
+.row{
+  text-align: center;
+  font-family: bignoodletitling;
+  background-color: #11171a;
+  color : white;
+
+}
+
+
+
+
+
+h1{
+  font-size: 80px;
+  color : orange;
+}
+
+
+
+}
+
+.col-md-3 name{
+  width: 200px;
+}
+
+.navbar-default{
+  background-color: rgb(17, 23, 26);
+  position: fixed;
+
+}
+
+.navbar
+{
+  background-color: rgb(17, 23, 26);
+  border: none;
+  display: fixed;
+
+
+}
+
+#bs-example-navbar-collapse-1{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+}
+
+/*placement de la navbar*/
+@media all and (max-width: 1024px)
+{
+  #bloc_page
+  {
+    width: auto;
+  }
+
+}
+
+.active{
+  margin-left: 250px;
+}
+
+/*bouton personnalisable*/
+
+.bouton1{
+  font-family: helvetica;
+}
+
+.container1{
+  color: black;
+}
+
+/*body*/
+
+.container{
+  font-family: arial;
+
+}
+
+p{
+  font-size: 20px;
+  font-family: ubuntu;
+}
+
+/*les catégories*/
+.col-sm-12{
+  font-size: 90px;
+  margin-bottom: 40px;
+}
+
+.col-xs-6{
+  font-size: 50px;
+  font-family: bignoodletitling;
+  margin-bottom: 20px;
+}
+
+
+
+
+/*pied de page */
+
+footer{
+
+  text-align: center;
+  font-family: ubuntu;
+  background-color: rgb(17, 23, 26);
+  color: orange;
+  margin-top: 10px;
+}
+
+.row1{
+  font-family: bignoodletitling;
+  color : orange;
+
+
+}

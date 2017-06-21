@@ -1,0 +1,14 @@
+/*@media screen and (max-width: 720px)
+{
+    body{
+      width: auto;
+      text-align: center;
+    }
+}
+
+@media all and (max-width: 720px)
+{
+    img{
+        display: none;
+    }
+}*/
