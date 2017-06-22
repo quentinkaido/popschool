@@ -1,24 +1,10 @@
-nav {
-  background-color: pink;
-  display: flex;
-  justify-content: space-around;
-  color: white;
-  font-family: sans;
-  font-weight: bold;
+.logo{
+  max-width: 20%;
 }
-@media all and (max-width: 800px) {
-  nav {
-    flex-direction: column;
-  }
-}
-div {
-  padding: 5px;
-  flex: 1 1 auto;
+
+.col-md-12{
   text-align: center;
-  border: 2px solid white;
-}
-div:hover {
-  background-color: black;
+  background: #222222
 }
 
 picture{
