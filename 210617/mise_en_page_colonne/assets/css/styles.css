@@ -14,7 +14,6 @@ body {
 
   width: auto;
   margin: auto;
-  /*vert*/
   background-color: rgb(17, 70, 26);
   font-size: 14px;
 
@@ -53,13 +52,11 @@ h1{
 
 }
 
-.col-md-3 name{
-  width: 200px;
-}
+
 
 .navbar-default{
   background-color: rgb(17, 23, 26);
-  position: fixed;
+
 
 }
 
@@ -67,7 +64,8 @@ h1{
 {
   background-color: rgb(17, 23, 26);
   border: none;
-  display: fixed;
+  
+
 
 
 }
