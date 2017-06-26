@@ -1,3 +1,5 @@
+body { padding-top: 70px; }
+
 .content{
   margin-left: 50px;
   margin-top: 100px;
@@ -7,13 +9,17 @@ h1{
   font-family: helvetica;
   margin: 20px;
   font-size: 50px;
+  text-align: center;
+}
+
+.col-md-4{
+  text-align: center;
 }
 
 p{
   font-family: helvetica;
   margin: 20px;
-  width: 50em;
-  font-size: 18px;
+  font-size: 14px;
 
 }
 
@@ -21,4 +27,14 @@ p{
   p{
     width: 20em;
    }
+}
+
+footer{
+  padding-top: 15px;
+  text-align: center;
+  font-family: ubuntu;
+  background-color: rgb(22, 23, 26);
+  color: orange;
+  margin-top: 10px;
+  height: 170px;
 }
