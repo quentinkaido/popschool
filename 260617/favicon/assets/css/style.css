@@ -1,11 +1,12 @@
 .row{
-  font-size: 250%;
+  font-size: 120%;
   float: left;
   border: 20px solid black;
   padding: 20px;
   margin: 20px;
   width: 80%;
   box-sizing: content-box;
+  color : #222;
 }
 
 .row1{
