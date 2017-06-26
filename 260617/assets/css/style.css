@@ -1,0 +1,19 @@
+.row{
+  font-size: 250%;
+  float: left;
+  border: 20px solid black;
+  padding: 20px;
+  margin: 20px;
+  width: 80%;
+  box-sizing: content-box;
+}
+
+.row1{
+  box-sizing: border-box;
+  font-size: 250%;
+  float: left;
+  border: 20px solid black;
+  padding: 20px;
+  margin: 20px;
+  width: 80%;
+}
