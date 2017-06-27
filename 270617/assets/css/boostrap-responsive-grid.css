@@ -1,5 +1,13 @@
 .image-placeholder{
-  background-color: pink;
+  background-color: white;
   height: 300px;
   width: 100%;
+  opacity: 0.6;
+}
+
+
+
+#myCarousel{
+  width: 100%;
+  position: fixed;
 }
