@@ -1,0 +1,147 @@
+*{
+  line-height: 1.5;
+  font-family: helvetica;
+
+}
+
+
+a:link{
+  color: grey;
+  padding: 0px;
+}
+a:visited {color: gray;}
+.section{
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Spectral", serif;
+  display: block;
+}
+.section--news{
+  padding-top: 100px;
+  background-color: white;
+}
+.u-container_center{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* NAVBAR */
+
+.navbar{
+  position: fixed;
+
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+
+  width: 100%;
+  height: 60px;
+  padding: 0 20px;
+
+  background-color: white;
+  border-bottom: 1px solid #e8eaee;
+}
+.navbar__item{
+  height: 40px;
+}
+.navbar__toggler{
+  flex-basis: 30%;
+}
+.navbar__logo__link{
+  height: 100%;
+}
+.navbar__logo,
+.navbar__subscribe{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+.navbar__logo{
+  flex-basis: 500%;
+  justify-content: left;
+  height: 57%;
+}
+.navbar__subscribe{
+  flex-basis: 30%;
+  justify-content: flex-end;
+}
+.navbar__toggler__img,
+.navbar__logo__img{
+  height: 100%;
+}
+.navbar__subscribe__button{
+  padding: 10px 20px;
+
+  font: bold .8em "Roboto";
+
+  background-color: #fdc828;
+  border: none;
+  border-radius: 5px;
+  width: 130px;
+}
+
+@media (max-width: 550px)
+{
+  .navbar{
+    justify-content: space-between;
+  }
+
+   TODO:
+  .navbar__subscribe{
+    display: none;
+  }
+
+  img{
+    width: 100%;
+  }
+}
+
+p,h1,h2,h3,time{
+  color:blue;
+}
+
+h6{
+  color: grey;
+  font-family: arial;
+  margin-top: inherit;
+}
+
+.u-outline_only{
+  display: none;
+}
+
+.infos_refonte{
+  background-color: #383f4e;
+  text-align: center;
+}
+.section.section--news{
+  margin-bottom: 4%;
+  border-bottom: 1px solid #e8eaee
+
+}
+
+/*footer*/
+
+.cm-text-block.cm-text-block--dark.cm-text-block--centered{
+  background-color: #383f4e;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 12px;
+  padding-top: 10px;
+  height: 40px;
+}
+.link_list{
+  background-color: white;
+  margin-left: 40%;
+}
+.cm-link-list-title{
+  margin-left: 4%;
+}

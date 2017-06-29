@@ -1,16 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <title>Le Monde.fr - Actualités et Infos en France et dans le monde</title>
+  <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="vendors/normalize/normalize.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Le Monde</title>
 </head>
-<header>
-
-</header>
 <body>
+
+  <header class="navbar">
+    <div class="navbar__item navbar__toggler">
+      <img class="navbar__toggler__img" src="assets/img/ui/hamburger_icon.svg" alt="Accéder au menu">
+    </div>
+    <h1 class="navbar__item navbar__logo">
+      <a class="navbar__logo__link" href="#">
+        <img class="navbar__logo__img" src="assets/img/brand/logo.svg" alt="Le Monde">
+      </a>
+    </h1>
+    <div class="navbar__item navbar__subscribe">
+      <button class="navbar__subscribe__button" type="button">
+        S'abonner dès 1€
+      </button>
+    </div>
+  </header>
+
+  <section class="section section--news">
+    <h2 class="u-outline_only">À la une</h2>
+    <main class="u-container_center">
+        <article class="news">
+            <div class="news__content">
+              <img src="assets/img/6ed2db9_30760-1mwswqn.b7n57sc3di.jpg" alt="">
+              <h6>Jean claude Couttause</h6>
+            <h3 class="news__title">Titre de l'article</h3>
+            <time class="news__time" datetime="2017-06-28T11:43">
+              à 9h30
+            </time>
+            <p class="news__intro">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi incidunt quis illum quibusdam impedit consequatur id animi quasi architecto vel beatae, aliquam deserunt aspernatur dolor distinctio consequuntur esse, voluptate.
+            </p>
+          </div>
+
+        </article>
+    </main>
+  </section>
+
+
+  <div data-gtm="infos_refonte" data-qa="block-text-dark" class="cm-text-block cm-text-block--dark cm-text-block--centered">
+      <strong>Le Monde refait son site mobile.</strong>
+  </div>
+
+
+<!-- link footer -->
+  <div class="link_list">
+    <h3 class="cm-link-list-title">Service</h3>
+    <ul class="cm-link-list-little">
+       <a class="cm-link-list_link" href="">Conjugaison</a> <br>
+       <a class="cm-link-list_link" href="">Cours d'anglais</a> <br>
+       <a class="cm-link-list_link" href="/verification/">Decodex</a> <br>
+       <a class="cm-link-list_link" href="">Formation professionelle</a> <br>
+       <a class="cm-link-list_link" href="/jeux/">Jeux</a> <br>
+       <a class="cm-link-list_link" href="">La boutique du Monde</a> <br>
+       <a class="cm-link-list_link" href="">Orthographe et grammaire</a> <br>
+       <a class="cm-link-list_link" href="">Prix de l'immobilier</a> <br>
+       <a class="cm-link-list_link" href="">Source Sûre</a> <br>
+    </ul>
+
+  </div>
+
 
 </body>
 </html>
