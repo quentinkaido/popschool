@@ -1,0 +1,27 @@
+.formulaire{
+  text-align: center;
+  background-color: grey;
+  padding: 10px;
+  font-family: helvetica;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+
+}
+
+.titre{
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+#box{
+  background-color: grey;
+  text-align: left;
+}
+
+#age{
+  margin: 3px;
+}

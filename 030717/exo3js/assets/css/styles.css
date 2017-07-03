@@ -1,0 +1,51 @@
+#myBody{
+  background-color: #e8e8e8;
+}
+
+
+.formulaire{
+  text-align: center;
+  background-color: grey;
+  padding: 10px;
+  font-family: helvetica;
+  font-size: 18px;
+  border-radius: 15px;
+  width: 300px;
+  margin: 0 auto;
+  color: white;
+
+}
+
+.titre{
+  margin: 0 auto;
+  text-align: center;
+  font-family: helvetica;
+  color: grey;
+}
+
+.btn{
+  padding-top: 10px;
+}
+
+.h1first{
+  font-family: BEBAS;
+  text-align: center;
+  color: darkgrey;
+  margin-left: 2px;
+}
+
+#box{
+  background-color: grey;
+  text-align: left;
+}
+
+
+#age{
+  margin: 3px;
+}
+
+#content{
+  background-color: white;
+  padding-bottom: 15px;
+  border-radius: 7px;
+}

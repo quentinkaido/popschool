@@ -1,0 +1,6 @@
+div:nth-child(odd) { background: red; width: 500px; height: 100px;}
+div:nth-child(even) { background: blue; width: 500px; height: 100px;}
+
+form{
+  background: red;
+}
