@@ -3,8 +3,8 @@ div{
   width: 200px;
   float: left;
   margin: 5px;
-  border: 1px solid grey;
+  border: 0.1px solid grey;
   border-radius: 20px;
-  box-shadow: 2px 2px 3px;
+  
 
 }
