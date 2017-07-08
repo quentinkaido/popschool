@@ -1,16 +1,9 @@
 @font-face {
-font-family: 'KeepCalm-Medium';
-src: url('../fonts/KeepCalm-Medium.ttf') format('truetype');
+font-family: 'bebas';
+src: url('../fonts/bebas.ttf') format('truetype');
 }
 
 
-
-* {
-	box-sizing: border-box;
-	border: none;
-	margin: 0;
-	padding: 0;
-}
 
 html, body {
 	width: 100%;
@@ -46,9 +39,6 @@ header {
 
 }
 
-
-
-
 .navbar-brand{
 	font-size: 280%;
 	font-family: goldoni;
@@ -61,13 +51,26 @@ header {
 	transform: translate(-50%, -50%);
 	text-align: center;
 	color: #eee;
-	font-family: "keepcalm",arial,sans-serif;
-	font-size: 45px;
+	font-family: bebas;
+	font-size: 40px;
 	text-shadow: 0px 1px 1px black;
 }
 
-#visibilite{
-	display: none;
+/*ANIMATION ANCRE*/
+#ancreclick{
+position: absolute;
+top:10px;
+bottom:10px;
+-webkit-animation:animcercle 0.5s alternate infinite ease-in-out;
+}
+@-webkit-keyframes animcercle{
+    from {top:1px;}
+    to {bottom:1px;}
+}
+
+/*TITRE*/
+h1{
+	font-size: 60px;
 }
 
 main h2 {
@@ -78,35 +81,34 @@ main h2 {
 }
 
 
-
-
 main > div {
 	padding-bottom: 70px;
 	padding-top: 70px;
 	text-align:center;
+	color: rgb(128, 128, 128);
 }
 
 #menu_1{
 	text-align: center;
 	font-size: 25px;
-	color: grey;
 }
 
 #panel{
 	background-color: #e3e3e3;
-	/*display:none;*/
-	width: 100%;
+	display:none;
 	position: relative;
-	float: left;
 	}
 
-
-
-
+#panel_1{
+	background-color: white;
+	position: relative;
+	width: 70%;
+	margin: auto;
+	height: 500px;
+}
 
 .banniere{
 	width: 100%;
-
 }
 
 #menu_2 {
@@ -115,7 +117,6 @@ main > div {
 }
 
 #menu_3 {
-
 	font-size: 25px;
 }
 
@@ -127,8 +128,4 @@ footer{
 	color: orange;
 	height: 178px;
 	width: 100%;
-}
-
-.{
-
 }

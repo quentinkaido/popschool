@@ -14,6 +14,7 @@
 	<link href="css/animate.css" rel="stylesheet">
 
 
+
 </head>
 <body>
 	<header id="fond">
@@ -41,11 +42,11 @@
 
 				<div class="collapse navbar-collapse" id="navbar-collapse-3">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="index.html">Acceuil</a></li>
-						<li><a href="#">Formation</a></li>
-						<li><a href="#">Print</a></li>
-						<li><a href="#">Web</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a class="animated zoomIn" href="index.html">Acceuil</a></li>
+						<li><a class="animated zoomIn" href="#menu_1">Description</a></li>
+						<li><a class="animated zoomIn" href="#menu_2">Print</a></li>
+						<li><a class="animated zoomIn" href="#menu_3">Web</a></li>
+						<li><a class="animated zoomIn" href="#">Contact</a></li>
 						<li>
 							<a class="btn btn-default"  data-toggle="collapse" href="#nav-collapse3" aria-expanded="false" aria-controls="nav-collapse3">Rechercher</a>
 						</li>
@@ -64,15 +65,17 @@
 
 		<div id="txt_header">
 			<br><br><br>
-			<h1>Quentin Leroux</h1>
-			<p>Infographiste 2D / Developpeur Web</p>
+			<h1 class="animated fadeInLeftBig">Quentin Leroux</h1>
+			<p class="animated fadeInRightBig">Infographiste 2D / Developpeur Web</p>
 
-			<a href="https://www.facebook.com/"><img class="icon" src="img/iconmonstr-facebook-6-32.png" alt="fzqf">
-				<a href="https://github.com/quentinkaido"><img class="icon" src="img/iconmonstr-github-2-32.png" alt="fzqf"></a>
-				<a href="https://www.twitter.com/"><img class="icon" src="img/iconmonstr-twitter-1-32.png" alt="fzqf"></a>
+			<a href="https://www.facebook.com/"><img class="icon animated rotateInDownLeft" src="img/iconmonstr-facebook-6-32.png" alt="fzqf">
+				<a href="https://github.com/quentinkaido"><img class="icon animated rotateIn" src="img/iconmonstr-github-2-32.png" alt="fzqf"></a>
+				<a href="https://www.twitter.com/"><img class="icon animated rotateInDownRight" src="img/iconmonstr-twitter-1-32.png" alt="fzqf"></a>
 				<br><br><br>
-				<a class="scroll_icon" href="#menu_1" 	><img src="img/arrow_down.png" alt="Flèche vers le bas"/></a>
+
 			</div>
+
+			<a id="ancre" class="scroll_icon" href="#menu_1"><img id="ancreclick" src="img/arrow_down.png" alt="Flèche vers le bas"/></a>
 
 		</header>
 		<main>
@@ -82,14 +85,15 @@
 					<br>
 					<p class=txtmain1>Infographiste web/print depuis 5 ans, je suis actuellement en
 						formation chez PopSchool à Lens. Grand fan de design et de mise en page, je suis
-						à la fois méthodique et créatif. Je suis un grand passionné d'art. N'hésitez pas à cliquer (ou poser votre doigt) sur l'empreinte digital pour en savoir un peu plus su moi.</p>
+						à la fois méthodique et créatif. Je suis un grand passionné d'art. N'hésitez pas à cliquer (ou poser votre doigt) sur l'empreinte digital pour en savoir un peu plus sur moi.</p>
 						<br>
-						<img src="img/iconmonstr-fingerprint-3-96.png" alt="logo">
-
+						<img src="img/iconmonstr-fingerprint-3-96.png" alt="logo" />
 					</div>
 				</div>
 				<div id="panel">
-					Hello world
+					<div id="panel_1">
+						Hello world
+					</div>
 				</div>
 
 
@@ -129,6 +133,7 @@
 
 
 			<script type="text/javascript" src="js/javascript.js"></script>
+			<script type="text/javascript" src="js/scroll.js"></script>
 			<!-- pluging Jquery -->
 			<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 			integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
@@ -136,10 +141,6 @@
 
 			<!-- Latest compiled and minified JavaScript -->
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-
-
 
 
 

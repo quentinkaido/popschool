@@ -3,8 +3,3 @@ $(document).ready(function(){
     $("#panel").slideToggle("slow");
   });
 });
-
-
-$(function () {
-    $('.tlt').textillate({ in: { effect: 'rollIn' } });
-})
