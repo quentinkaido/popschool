@@ -1,0 +1,39 @@
+canvas {
+	border: 1px solid black;
+	position: absolute;
+}
+
+
+button{
+	background-color: brown;
+	font-size: 30px;
+	font-family: bebas;
+	margin: 2px;
+	color: white;
+}
+
+
+.button{
+	position: absolute;
+	left: 36%;
+	bottom: 3%;
+
+}
+
+#panel{
+	height: 600px;
+	width: 400px;
+	background-color: grey;
+	opacity: 0.6;
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	display: none;
+}
+
+.caract{
+	font-family: bebas;
+	text-align: center;
+	padding: 50px;
+	font-size: 25px;
+}
