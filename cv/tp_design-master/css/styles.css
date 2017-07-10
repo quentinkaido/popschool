@@ -68,57 +68,9 @@ bottom:10px;
     to {bottom:1px;}
 }
 
-/*TITRE*/
-h1{
-	font-size: 60px;
-}
-
-main h2 {
-	font-family: bebas;
-	font-size: 50px;
-	text-align: center;
-	color: #303030;
-}
 
 
-main > div {
-	padding-bottom: 70px;
-	padding-top: 70px;
-	text-align:center;
-	color: rgb(128, 128, 128);
-}
 
-#menu_1{
-	text-align: center;
-	font-size: 25px;
-}
-
-#panel{
-	background-color: #e3e3e3;
-	display:none;
-	position: relative;
-	}
-
-#panel_1{
-	background-color: white;
-	position: relative;
-	width: 70%;
-	margin: auto;
-	height: 500px;
-}
-
-.banniere{
-	width: 100%;
-}
-
-#menu_2 {
-	background-color: #e3e3e3;
-	font-size: 25px;
-}
-
-#menu_3 {
-	font-size: 25px;
-}
 
 footer{
 	padding-top: 17px;

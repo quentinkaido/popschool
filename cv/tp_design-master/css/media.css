@@ -19,74 +19,64 @@
     /*text-shadow: 0px 0px 0px purple;*/
   }
 
-  #menu_1{
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 23px;
-    color: rgb(128, 128, 128);
+  h2{
+    font-size: 35px;
+    font-family: bebas;
+    padding: 20px;
   }
 
-  #panel_1{
+}
+
+
+
+@media screen and (min-width: 760px){
+  h2{
+    font-size: 45px;
+    font-family: bebas;
+  }
+    #ancre{
+    	position: absolute;
+    	top: 80%;
+    	left: 46%
+    }
+
+    .dropdown{
+    visibility: hidden;
+    }
+
+    #txt_header{
+      position: absolute;
       text-align: center;
-      padding-left: 15px;
-      padding-right: 15px;
-      font-size: 22px;
-      color: rgb(128, 128, 128);
-      padding-top: 50px;
-  }
+      color: #eee;
+      font-size: 23px;
+      font-family: bebas;
+      /*text-shadow: 0px 0px 0px purple;*/
+    }
+}
 
-  #menu_2{
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 22px;
-    color: rgb(128, 128, 128);
-  }
+@media screen and (max-width: 1024px){
+  h2{
+    font-size: 45px;
+    font-family: bebas;
 
-  #menu_3{
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 22px;
-    color: rgb(128, 128, 128);
   }
 }
 
 @media screen and (min-width:1180px){
+  h2{
+    font-size: 50px;
+    font-family: bebas;
+    padding: 20px;
+  }
+
 
   #ancre{
   	position: absolute;
   	top: 80%;
   	left: 47.65%;
-
   }
 
   .dropdown{
     margin-left: 10px;
-  }
-
-  #menu_1{
-    text-align: center;
-    padding-left: 250px;
-    padding-right: 250px;
-    font-size: 25px;
-    color: rgb(128, 128, 128);
-  }
-
-  #menu_2{
-    text-align: center;
-    padding-left: 250px;
-    padding-right: 250px;
-    font-size: 25px;
-    color: rgb(128, 128, 128);
-  }
-
-  #menu_3{
-    text-align: center;
-    padding-left: 250px;
-    padding-right: 250px;
-    font-size: 25px;
-    color: rgb(128, 128, 128);
   }
 }

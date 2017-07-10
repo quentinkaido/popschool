@@ -1,0 +1,46 @@
+.row{
+  text-align: center;
+}
+
+.col-md-10{
+  background-color: purple;
+}
+
+#content1{
+  background-color: rgb(237, 237, 237);
+  margin-top: 30px;
+
+}
+
+
+.pcontent1{
+  font-family: helvetica;
+  font-size: 23px;
+  padding: 30px;
+  color: rgb(128, 128, 128);
+}
+
+#panel{
+	background-color: #e3e3e3;
+	display:none;
+	position: relative;
+	padding-bottom: 20px;
+	}
+
+  .digital{
+  padding-bottom: 20px;
+  }
+
+
+#content2{
+  background-color: white;
+}
+
+#menu_2{
+  height: 500px;
+}
+
+/*TITRE*/
+h1{
+	font-size: 60px;
+}
