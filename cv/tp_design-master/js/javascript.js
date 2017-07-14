@@ -1,20 +1,16 @@
+
 $(document).ready(function(){
   $("#menu_1").click(function(){
     $("#panel").slideToggle("slow");
   });
 });
 
-// $('#menu_1').click(function() {
-//    $('#panel').slideToggle('slow');
-//    return false;
-// });
-
 
 // Fonction executée lors de l'utilisation du clic droit.
 $(document).bind("contextmenu",function()
 {
 // Si vous voulez ajouter un message d'alerte
-alert('Merci de respecter le travail du webmaster en ne copiant pas le contenu sans autorisation');
+sweetAlert("Hey tu fais quoi la ?!", "Ne prend pas mon site pd!", "error");
 // On indique au navigateur de ne pas réagir en cas de clic droit.
 return false;
 });
@@ -29,3 +25,9 @@ window.onkeydown=function(event){
         return false;
     }
 }
+// swal({
+//   title: "Comme tu es un fils de pute :",
+//   text: "Je me fermerai dans 100 secondes :).",
+//   timer: 100000,
+//   showConfirmButton: false
+// });

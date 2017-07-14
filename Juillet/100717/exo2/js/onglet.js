@@ -9,5 +9,5 @@ else if(e.which) // Netscape/Firefox/Opera
   keynum = e.which;
   }
 //alert(keynum);
-	if (keynum == 73) alert("Echap !");
+	if (keynum == 27) alert("Echap !");
 }
