@@ -1,0 +1,35 @@
+h1{
+  font-size: 30px;
+  font-family: bebas;
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+.div1{
+  background-color: #4D394B;
+  margin: auto;
+  width: 200px;
+  color : white;
+  font-family: helvetica;
+  padding-bottom: 10px;
+  border-radius: 15px;
+
+}
+
+.btn{
+   display: block;
+   margin : auto;
+   margin-top: 8px;
+}
+
+.background-color{
+  background-color: lightgrey;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+#message{
+  display: block;
+  margin: auto;
+}

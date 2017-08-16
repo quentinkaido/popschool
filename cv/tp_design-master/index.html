@@ -1,145 +1,34 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="icon" type="image/png" href="assets/img/favicon1.png" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<title>TP Notions de Design</title>
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/media.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link href="css/animate.css" rel="stylesheet">
-	<link href="css/content.css" rel="stylesheet">
-	<script src="js/animationalert/dist/sweetalert.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="js/animationalert/dist/sweetalert.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV Quentin Leroux</title>
+  <link rel="stylesheet" href="css/homepage.css">
+  <link rel="stylesheet" href="css/animate.css">
 </head>
+<body onclick="setRandomColor(this)">
 
-<body>
-	<!-- Première page -->
-	<header id="fond">
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-3">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">QL</a>
-				</div>
-				<ul class="nav navbar-nav navbar-right">
+  <div id="contenant_page">
+    <h1 class="logo animated fadeInDown" onclick="setRandomColor(this)">Quentin Leroux</h1>
+    <p class="metier animated fadeInDown">Infographiste 2D</p>
+    <p class="metier animated fadeInDown">Programmeur Web</p>
 
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">Language</i><span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="indexen.html">English</a></li>
-						</ul>
-					</li>
-				</ul>
-
-				<div class="collapse navbar-collapse" id="navbar-collapse-3">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a class="animated zoomIn" href="index.html">Acceuil</a></li>
-						<li><a class="animated zoomIn" href="#menu_1">Description</a></li>
-						<li><a class="animated zoomIn" href="#menu_2">Print</a></li>
-						<li><a class="animated zoomIn" href="#menu_3">Web</a></li>
-						<li><a class="animated zoomIn" href="#">Contact</a></li>
-						<li>
-							<a class="btn btn-default"  data-toggle="collapse" href="#nav-collapse3" aria-expanded="false" aria-controls="nav-collapse3">Rechercher</a>
-						</li>
-					</ul>
-					<div class="collapse nav navbar-nav nav-collapse slide-down" id="nav-collapse3">
-						<form class="navbar-form navbar-right" role="search">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Tapez votre recherche" />
-							</div>
-							<button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-						</form>
-					</div>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container -->
-		</nav><!-- /.navbar -->
-
-		<div id="txt_header">
-			<br><br><br>
-			<h1 class="animated fadeInLeftBig">Quentin Leroux</h1>
-			<p class="animated fadeInRightBig">Infographiste 2D / Developpeur Web</p>
-			<a href="https://www.facebook.com/"><img class="icon animated rotateInDownLeft" src="img/iconmonstr-facebook-6-32.png" alt="fzqf">
-				<a href="https://github.com/quentinkaido"><img class="icon animated rotateIn" src="img/iconmonstr-github-2-32.png" alt="fzqf"></a>
-				<a href="https://www.twitter.com/"><img class="icon animated rotateInDownRight" src="img/iconmonstr-twitter-1-32.png" alt="fzqf"></a>
-				<br><br><br>
-			</div>
-			<a id="ancre" class="scroll_icon" href="#menu_0"><img id="ancreclick" src="img/arrow_down.png" alt="Flèche vers le bas"/></a>
-		</header>
-
-		<!-- Corps de la page -->
-		<div id="menu_0"></div>
-		<div class="container-fluid">
-			<div id="content1" class="row">
-				<h2>Competences :</h2>
-
-				<div id="menu_1" class="col-md-10 col-md-offset-1">
-					<p class="pcontent1">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum consequatur perspiciatis voluptatem eum obcaecati natus, itaque consequuntur modi recusandae optio blanditiis unde soluta accusantium autem minus iusto quibusdam labore quos!
-					</p>
-					<img class="digital" src="img/iconmonstr-fingerprint-3-96.png" alt="digital">
-
-				</div>
-			</div>
-			<div id="panel" class="row">
-				<img src="img/graphiste.jpg" alt="">
-			</div>
-			<div id="content2" class="row">
-				<h2>Print</h2>
-				<div id="menu_2" class="col-md-10 col-md-offset-1">col</div>
-			</div>
-
-
-		</div>
+    <div id="bas">
+      <a href="indexfr.html" class="btn">version <b>française</b></a>
+      <a href="indexen.html" class="btn"><b>english</b> version</a><br>
+      <img class="img_dev animated bouceIn" src="img/Adobe-Suite-Logo.png" alt="img">
+        <div class="contact">
+          <strong>Contact</strong><br>
+          <a href="mailto:#">quentin.leroux@hotmail.com</a><br>
+        </div>
+    </div>
 
 
 
+  </div>
 
 
-
-
-
-
-
-		<footer>
-			<address>
-				<strong>Twitter, Inc.</strong><br>
-				1355 Market Street, Suite 900<br>
-				San Francisco, CA 94103<br>
-				<abbr title="Phone">P:</abbr> (123) 456-7890
-			</address>
-
-			<address>
-				<strong>Full Name</strong><br>
-				<a href="mailto:#">first.last@example.com</a><br>
-
-
-			</address>
-		</footer>
-
-
-
-		<script type="text/javascript" src="js/javascript.js"></script>
-		<script type="text/javascript" src="js/scroll.js"></script>
-		<!-- pluging Jquery -->
-		<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-		crossorigin="anonymous"></script> -->
-
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-
-	</body>
-	</html>
+  <script type="text/javascript" src="js/homepage.js"></script>
+</body>
+</html>

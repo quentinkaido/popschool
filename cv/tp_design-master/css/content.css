@@ -3,14 +3,33 @@
 }
 
 .col-md-10{
-  background-color: purple;
+  background-color: #eee;
+  border-radius: 20px;
 }
 
 #content1{
   background-color: #E3E3E3;
   margin-top: 30px;
+  margin-bottom: 50px;
 
 }
+
+.box-white {
+  background-color: #fff;
+  color: #636363;
+  padding: 2px 10px 10px ;
+  height: 280px;
+  margin-bottom: 5px;
+  border-bottom: 3px solid #C1CBDB; }
+  .box-white ul {
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 0; }
+  .box-white h3 {
+    font-size: 3em;
+     }
+
 
 
 .pcontent1{
@@ -20,24 +39,46 @@
   color: rgb(128, 128, 128);
 }
 
-#panel{
-	background-color: #e3e3e3;
-	display:none;
-	position: relative;
-	padding-bottom: 20px;
-	}
+
 
   .digital{
   padding-bottom: 20px;
   }
 
 
+  .section-content {
+    margin-top: 4%;
+    margin-bottom: 6%; }
+
+  .section-grey {
+    background-color: #F4F4F4; }
+
+    .box-greyish {
+  background-color: #222222;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 1px 1px 2px grey;
+  text-align: center;}
+
+  .box-greyish a {
+    color: #fff; }
+  .box-greyish a:hover {
+    font-weight: bold;
+    text-decoration: none; }
+  .box-greyish h3 .fa {
+    font-size: 3em;
+    color: #fff; }
+
+
+
 #content2{
   background-color: #EEEEEE;
+
 }
 
 #menu_2{
-  height: 500px;
+  height: 200px;
 }
 
 /*TITRE*/

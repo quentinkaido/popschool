@@ -1,0 +1,136 @@
+
+/* fontes
+* @license
+* The fonts listed in this notice are subject to the End User License
+* Agreement(s) entered into by the website owner. All other parties are
+* explicitly restricted from using the Licensed Webfonts(s).
+* You may obtain a valid license at the URLs below.
+* Webfont: CorporativeSoft by Latinotype
+* URL: http://www.myfonts.com/fonts/latinotype/corporative-soft/
+*/
+
+@font-face {font-family: 'CorporativeSoft-Regular';src: url('reservoir/themes/h2e_dc_theme_FR/fontes/2FC9FF_10_0.eot');src: url('reservoir/themes/h2e_dc_theme_FR/fontes/2FC9FF_10_0.eot?#iefix') format('embedded-opentype'),url('reservoir/themes/h2e_dc_theme_FR/fontes/2FC9FF_10_0.woff2') format('woff2'),url('reservoir/themes/h2e_dc_theme_FR/fontes/2FC9FF_10_0.woff') format('woff'),url('reservoir/themes/h2e_dc_theme_FR/fontes/2FC9FF_10_0.ttf') format('truetype');}
+@font-face {font-family: 'CorporativeSoft-Bold';src: url('reservoir/themes/h2e_dc_theme_FR/fontes/2FC9FF_34_0.eot');src: url('reservoir/themes/h2e_dc_theme_FR/fontes/2FC9FF_34_0.eot?#iefix') format('embedded-opentype'),url('reservoir/themes/h2e_dc_theme_FR/fontes/2FC9FF_34_0.woff2') format('woff2'),url('reservoir/themes/h2e_dc_theme_FR/fontes/2FC9FF_34_0.woff') format('woff'),url('reservoir/themes/h2e_dc_theme_FR/fontes/2FC9FF_34_0.ttf') format('truetype');}
+@font-face {
+font-family:'bebas';
+src: url('../fonts/bebas.ttf') format('truetype');
+}
+@font-face {
+font-family:'NEXT';
+src: url('fonts/next_art/NEXT-ART_Thin.ttf') format('truetype');
+}
+
+
+html {font-size: 100%;}
+
+.metier {
+  text-align:center;
+  font-family:'CorporativeSoft-Regular', sans-serif;
+  color:#fff1d0;
+  font-size:1em;
+}
+
+b{
+  font-weight:normal;
+  font-family:'CorporativeSoft-Bold', sans-serif;
+}
+body {
+  font-family:'CorporativeSoftCnd-Medium', sans-serif; color:#000;
+  font-size: 0.95em;
+  background-color: purple;
+}
+
+  * {margin:0; padding:0;}
+
+  html, body {width:100%; height:100%; overflow:hidden;}
+
+  .logo {
+    margin: 2em calc(50% - 150px) 1em calc(50% - 150px);
+    font-family: bebas;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+
+.metier{
+  font-family: NEXT ART;
+  font-size: 30px;
+}
+
+.contact{
+  padding-top: 30px;
+
+}
+
+.gif{
+  height: 100px;
+}
+
+  .btn {
+    font-weight:normal; color:white;
+    text-transform:uppercase;
+    padding:0.5em; margin:2px;
+    text-decoration:none;
+    background-repeat:no-repeat;
+    background-position: -500px 0em;
+    transition:background-position ease 0.2s; display:inline-block;}
+
+    .btn {
+      background-color:darkgrey;
+      background-image:url(reservoir/themes/h2e_dc_theme_FR/images/carrerouge.svg);
+      border-radius: 10px;
+    }
+
+    .btn:hover {background-position:0 0;transition:all ease 1.2s}
+
+    .img_dev{
+      height: 60px;
+      padding-top: 15px;
+    }
+
+    @keyframes boutons {
+      from {top:100%;}
+      to {top:45%;}
+    }
+
+    @-webkit-keyframes boutons {
+      from {top:100%;}
+      to {top:45%;}
+    }
+    @-moz-keyframes boutons {
+      from {top:100%;}
+      to {top:45%;}
+    }
+    @-ms-keyframes boutons {
+      from {top:100%;}
+      to {top:45%;}
+    }
+    @-o-keyframes boutons {
+      from {top:100%;}
+      to {top:45%;}
+    }
+
+    #bas {
+      -webkit-animation: boutons 1s ease 0.5s;
+      -moz-animation: boutons 1s ease 0.5s;
+      -ms-animation: boutons 1s ease 0.5s;
+      -o-animation: boutons 1s ease 0.5s;
+      animation: boutons 1s ease 0.5s;
+
+      -webkit-animation-fill-mode: forwards;
+      -moz-animation-fill-mode: forwards;
+      -ms-animation-fill-mode: forwards;
+      -o-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+
+      width:100%;
+      height:800px;
+      position:absolute;
+      top:100%;
+      padding-top:4em;
+      margin-top:4em;
+      text-align:center;
+      margin:0 auto;
+      background-color:white;
+
+    }
