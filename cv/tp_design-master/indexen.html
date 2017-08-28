@@ -6,13 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="icon" type="image/png" href="assets/img/favicon1.png" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<title>TP Notions de Design</title>
+	<title>CV Leroux Quentin</title>
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/media.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link href="css/animate.css" rel="stylesheet">
 	<link href="css/content.css" rel="stylesheet">
+	<link href="css/overlay.css" rel="stylesheet">
 	<script src="js/animationalert/dist/sweetalert.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="js/animationalert/dist/sweetalert.css">
 </head>
@@ -37,7 +38,7 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">Language</i><span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="indexen.html">English</a></li>
+							<li><a href="indexfr.html">Français</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -45,13 +46,11 @@
 				<div class="collapse navbar-collapse" id="navbar-collapse-3">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a class="animated zoomIn" href="index.html">Acceuil</a></li>
-						<li><a class="animated zoomIn" href="#menu_1">Description</a></li>
+						<li><a class="animated zoomIn" href="#menu_0">A propos</a></li>
+						<li><a class="animated zoomIn" href="#menu_1">Compétences</a></li>
 						<li><a class="animated zoomIn" href="#menu_2">Print</a></li>
 						<li><a class="animated zoomIn" href="#menu_3">Web</a></li>
-						<li><a class="animated zoomIn" href="#">Contact</a></li>
-						<li>
-							<a class="btn btn-default"  data-toggle="collapse" href="#nav-collapse3" aria-expanded="false" aria-controls="nav-collapse3">Rechercher</a>
-						</li>
+						<li><a class="animated zoomIn" href="#menu_4">Contact</a></li>
 					</ul>
 					<div class="collapse nav navbar-nav nav-collapse slide-down" id="nav-collapse3">
 						<form class="navbar-form navbar-right" role="search">
@@ -68,42 +67,153 @@
 		<div id="txt_header">
 			<br><br><br>
 			<h1 class="animated fadeInLeftBig">Quentin Leroux</h1>
-			<p class="animated fadeInRightBig">Infographiste 2D / Developpeur Web</p>
-			<a href="https://www.facebook.com/"><img class="icon animated rotateInDownLeft" src="img/iconmonstr-facebook-6-32.png" alt="fzqf">
+			<h4 class="animated fadeInRightBig">Infographiste 2D / Developpeur Web</h4>
+			<a href="https://www.facebook.com/quentin.biersack.1"><img class="icon animated rotateInDownLeft" src="img/iconmonstr-facebook-6-32.png" alt="fzqf">
 				<a href="https://github.com/quentinkaido"><img class="icon animated rotateIn" src="img/iconmonstr-github-2-32.png" alt="fzqf"></a>
-				<a href="https://www.twitter.com/"><img class="icon animated rotateInDownRight" src="img/iconmonstr-twitter-1-32.png" alt="fzqf"></a>
+				<a href="https://twitter.com/QuentinLix"><img class="icon animated rotateInDownRight" src="img/iconmonstr-twitter-1-32.png" alt="fzqf"></a>
 				<br><br><br>
 			</div>
 			<a id="ancre" class="scroll_icon" href="#menu_0"><img id="ancreclick" src="img/arrow_down.png" alt="Flèche vers le bas"/></a>
 		</header>
 
-		<!-- Corps de la page -->
 		<div id="menu_0"></div>
 		<div class="container-fluid">
-			<div id="content1" class="row">
-				<h2>Competences :</h2>
-
-				<div id="menu_1" class="col-md-10 col-md-offset-1">
-					<p class="pcontent1">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum consequatur perspiciatis voluptatem eum obcaecati natus, itaque consequuntur modi recusandae optio blanditiis unde soluta accusantium autem minus iusto quibusdam labore quos!
-					</p>
-					<img class="digital" src="img/iconmonstr-fingerprint-3-96.png" alt="digital">
-
+			<div class="row section-content">
+				<div class="col-md-5 col-md-offset-1" id="about">
+					<h3>A PROPOS</h3>
+					<p>Après des études en infographie et une formation intensive en développement web, je poursuis ma passion pour le métier. Curieux, autonome et rigoureux, je ne cesse de me perfectionner grâce à un apprentissage continu et une veille constante. J'aime développer des interfaces simples et bien pensées.<br /> </p>
+				</div>
+				<br>
+				<div class="col-md-4 col-md-offset-1 box-greyish">
+					<div class="border">
+						<h3><i class="fa fa-id-card-o sr-icons" aria-hidden="true"></i></h3>
+						<ul class="id">
+							<li>20 ans</li>
+							<li>Mazingarbe, Hauts-de-France</li>
+							<li><a href="mailto:ce.lienard@gmail.com">quentin.leroux@hotmail.com </a></li>
+							<li><a href="" target="_blank">Télécharger le CV en PDF</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			<div id="panel" class="row">
-				<img src="img/graphiste.jpg" alt="">
-			</div>
-			<div id="content2" class="row">
-				<h2>Print</h2>
-				<div id="menu_2" class="col-md-10 col-md-offset-1">col</div>
-			</div>
+		</div><!-- container-fluid -->
 
+		<div id="menu_1"></div>
+		<!-- Corps de la page -->
+		<div class="container-fluid section-grey">
+			<div class="arrow_box"></div>
+			<h3 class="title">Competences</h3>
+			<div class="container section-content">
+				<div class="row">
+					<div class="col-md-4 ">
+						<div class="box-white">
+							<h3>LANGAGES</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript / jQuery</li>
+              <li>PHP / MYSQL</li>
+            </ul>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="box-white second">
+							<h3>FRAMEWORKS & CMS</h3>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Wordpress</li>
+            </ul>
 
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="box-white third">
+							<h3>AUTRES</h3>
+            <ul>
+              <li>Git</li>
+              <li>Photoshop CS6</li>
+							<li>Illustrator CS6</li>
+							<li>Indesign CS6</li>
+            </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- container-fluid -->
+		<div id="menu_2"></div>
+		<div id="content2" class="row">
+			<h3 class="title">Print</h3>
+			<div class="container section-content">
+				<div class="row">
+					<div class="col-md-4 ">
+						<div class="box-white first ">
+							<div class="overlay">
+								<div class="text">WIP</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="box-white second">
+							<div class="overlay">
+								<div class="text">WIP</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="box-white third">
+							<div class="overlay">
+								<div class="text">WIP</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="menu_3"></div>
+		<div class="container-fluid">
+			<div id="content1" class="row">
+				<h3 class="title">Web</h3>
+
+				<div class="container section-content">
+					<div class="row">
+						<div class="col-md-4 ">
+							<div class="box-white first ">
+								<img class="image"src="img/wakcraftsite.png" alt="img">
+								<div class="overlay">
+									<div class="text">Wakcraft</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-md-4 ">
+							<div class="box-white second">
+								<img class="image"src="img/1409773635.png" alt="img">
+								<div class="overlay">
+									<div class="text">Mangactu</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 ">
+							<div class="box-white third">
+								<div class="overlay">
+									<div class="text">PopSchool</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
 		</div>
 
 
+
 		<footer>
+			<div id="menu_4"></div>
 			<address>
 				<strong>Quentin Leroux</strong><br>
 				France<br>
@@ -124,6 +234,7 @@
 
 		<script type="text/javascript" src="js/javascript.js"></script>
 		<script type="text/javascript" src="js/scroll.js"></script>
+
 		<!-- pluging Jquery -->
 		<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="

@@ -17,10 +17,11 @@
 .box-white {
   background-color: #fff;
   color: #636363;
-  padding: 2px 10px 10px ;
   height: 280px;
-  margin-bottom: 5px;
-  border-bottom: 3px solid #C1CBDB; }
+  border-bottom: 3px solid #C1CBDB;
+  padding-top: 12%;
+  }
+
   .box-white ul {
     list-style: none;
     text-align: center;
@@ -77,9 +78,7 @@
 
 }
 
-#menu_2{
-  height: 200px;
-}
+
 
 /*TITRE*/
 h1{

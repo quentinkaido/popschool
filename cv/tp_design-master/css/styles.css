@@ -2,11 +2,14 @@
 font-family: 'bebas';
 src: url('../fonts/bebas.ttf') format('truetype');
 }
+@font-face {
+font-family:'NEXT';
+src: url('../fonts/next_art/NEXT-ART_Thin.ttf') format('truetype');
+}
 
 
 
 html, body {
-	width: 100%;
 	height: 100%;
 }
 
@@ -29,7 +32,7 @@ header {
 
 h3{
 	text-align: center;
-	font-family: next art;
+	font-family: NEXT;
 	font-size: 50px;
 }
 
