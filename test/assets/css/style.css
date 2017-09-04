@@ -1,0 +1,28 @@
+html{
+  background-color: blue;
+}
+
+div{
+  height: 500px;
+
+  margin: auto;
+  margin-top: 5px;
+}
+
+.color{
+  background-color: yellow;
+}
+
+.color1{
+  background-color: purple;
+}
+
+.color2{
+  height: 200px;
+  background-color: green;
+}
+
+.color3{
+  height: 150px;
+  background-color: red;
+}

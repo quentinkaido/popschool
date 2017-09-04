@@ -1,0 +1,13 @@
+{
+    "name": "popschool/php-composer",
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "CathyThuliez",
+            "email": "cathy.thuliez@crea-tech.fr"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^2.5"
+    }
+}

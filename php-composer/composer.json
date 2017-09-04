@@ -1,0 +1,12 @@
+{
+    "name": "root/php-composer",
+    "authors": [
+        {
+            "name": "Quentin Leroux",
+            "email": "quentin.leroux@hotmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^2.5"
+    }
+}
